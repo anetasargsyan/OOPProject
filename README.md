@@ -1,6 +1,8 @@
 # OOPProject
 
-This is a Group Project for CS120: Introduction to Object-Oriented Programming.
+This is a Group Project for CS120: Introduction to Object-Oriented Programming. <br/>
+
+# About Project
 
 The project represents a encyclopedia of insects. Some key information about them.
 
