@@ -8,6 +8,6 @@ Project covers all 4 OOP principles has a GUI representation of data and uses CS
 
 # Group:
 
-Aram Aleksanyan
-Kevin Markalian
-Aneta Sargsyan
+Aram Aleksanyan <br />
+Kevin Markalian<br />
+Aneta Sargsyan<br />
