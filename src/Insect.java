@@ -71,4 +71,9 @@ public abstract class Insect {
         this.venomous = venomous;
         this.funFact = funFact;
     }
+
+    @Override
+    public String toString(){
+        return type + " " + legCount + " " + name + " " + AvgAge + " " + venomous + " " + funFact;
+    }
 }
