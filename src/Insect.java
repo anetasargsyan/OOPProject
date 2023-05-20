@@ -2,7 +2,7 @@ public abstract class Insect {
     private String type;
     private String name;
     private int legCount;
-    private  int maxAgeInMonth;
+    private  int AvgAge;
     private boolean venomous;
     private  String funFact;
 
@@ -36,13 +36,13 @@ public abstract class Insect {
         }
     }
 
-    public int getMaxAgeInMonth() {
-        return maxAgeInMonth;
+    public int getAvgAge() {
+        return AvgAge;
     }
 
-    public void setMaxAge(int maxAgeInMonth) {
-        if(maxAgeInMonth < 0) {
-            this.maxAgeInMonth = maxAgeInMonth;
+    public void setMaxAge(int AvgAge) {
+        if(AvgAge < 0) {
+            this.AvgAge = AvgAge;
         }
     }
 
@@ -63,11 +63,11 @@ public abstract class Insect {
             this.funFact = funFact;
         }
     }
-    public Insect(String type, String name,int legCount, int maxAgeInMonth, boolean venomous, String funFact) {
+    public Insect(String type, String name,int legCount, int AvgAge, boolean venomous, String funFact) {
         this.type = type;
         this.legCount = legCount;
         this.name = name;
-        this.maxAgeInMonth = maxAgeInMonth;
+        this.AvgAge = AvgAge;
         this.venomous = venomous;
         this.funFact = funFact;
     }
