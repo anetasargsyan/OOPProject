@@ -1,10 +1,10 @@
 public abstract class Insect {
-    public String type;
-    public String name;
-    public int legCount;
-    public  int maxAgeInMonth;
-    public boolean venomous;
-    public  String funFact;
+    private String type;
+    private String name;
+    private int legCount;
+    private  int maxAgeInMonth;
+    private boolean venomous;
+    private  String funFact;
 
     public String diet() {
         System.out.println("To be determined ");

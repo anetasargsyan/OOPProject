@@ -5,12 +5,12 @@ public abstract class WalkingInsect extends Insect{
     }
     @Override
     public String moveType() {
-        return type + " moves by ";
+        return super.getType() + " moves by ";
 
     }
     @Override
     public String diet() {
-        return type + " typically eats ";
+        return super.getType() + " typically eats ";
     }
 
 }

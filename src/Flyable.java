@@ -1,3 +1,3 @@
 public interface Flyable {
-    String flyingStyle();
+    public String flyingStyle();
 }

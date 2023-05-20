@@ -1,4 +1,4 @@
-public class Bee extends FlyingInsect implements Flyable{
+public class Bee extends FlyingInsect{
 
     public Bee(String type, String name, int legCount, int maxAgeInMonth, boolean venomous, String funFact) {
         super(type, name, legCount, maxAgeInMonth, venomous, funFact);
@@ -6,6 +6,6 @@ public class Bee extends FlyingInsect implements Flyable{
 
     @Override
     public String flyingStyle() {
-        return "The " + type + " flies by make short, quick sweeping motions with their wings.";
+        return  super.flyingStyle() + super.getType() + " flies by make short, quick sweeping motions with their wings.";
     }
 }
