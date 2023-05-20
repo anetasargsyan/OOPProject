@@ -7,7 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Desktop/Intro to CS - OOP/OOP/Homeworks/Kevin Markalian - HW5/out/artifacts/Kevin_Markalian___HW5_jar/Kevin Markalian - HW5.jar!/" />
@@ -16,5 +16,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Kevin Markalian - HW5" level="project" />
   </component>
 </module>
