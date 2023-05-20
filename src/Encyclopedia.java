@@ -53,6 +53,7 @@ public class Encyclopedia {
 
     Encyclopedia() throws IvalidCSVFileException, IOException {
 
+        //this is to show that CSVReader works, just the fact that filepath needs to be changed any time, we use manual addition
         //CSVReader reader = new CSVReader("Data.csv");
 
         //System.out.println(Arrays.toString(reader.getColumnNames()));
