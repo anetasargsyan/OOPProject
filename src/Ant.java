@@ -1,6 +1,6 @@
 public class Ant extends WalkingInsect{
-    public Ant(String type, String name, int legCount, int maxAgeInMonth, boolean venomous, String funFact) {
-        super(type, name, legCount, maxAgeInMonth, venomous, funFact);
+    public Ant(String type, String name, int legCount, int AvgAge, boolean venomous, String funFact) {
+        super(type, name, legCount, AvgAge, venomous, funFact);
     }
 
     public String moveType() {

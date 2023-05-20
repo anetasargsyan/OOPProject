@@ -1,7 +1,7 @@
 public class Cockroach extends WalkingInsect{
 
-    public Cockroach(String type, String name, int legCount, int maxAgeInMonth, boolean venomous, String funFact) {
-        super(type, name, legCount, maxAgeInMonth, venomous, funFact);
+    public Cockroach(String type, String name, int legCount, int AvgAge, boolean venomous, String funFact) {
+        super(type, name, legCount, AvgAge, venomous, funFact);
     }
     public String moveType() {
         return super.moveType() + "stepping in a 'tripod gait', a way in which the front and hind legs on one side of " +
